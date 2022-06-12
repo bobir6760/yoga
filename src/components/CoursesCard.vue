@@ -51,6 +51,7 @@ export default {
 }
 .courses-item img {
   width: 100%;
+  cursor: pointer;
 }
 .courses-wrapper-block {
   display: flex;
@@ -64,6 +65,7 @@ export default {
     font-size: 25px;
     color: white;
     padding: 3px;
+    cursor: pointer;
   }
 }
 .courses-wrapper-body {
@@ -75,6 +77,7 @@ export default {
 }
 .courses-item__title {
   color: white;
+  cursor: pointer;
 }
 .courses-item-body {
   display: flex;
@@ -82,6 +85,7 @@ export default {
 }
 .courses-item__subtitle {
   color: white;
+  cursor: pointer;
 }
 @media screen and (max-width: 576px) {
   .courses-card .courses-card__title {

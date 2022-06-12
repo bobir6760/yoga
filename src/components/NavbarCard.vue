@@ -20,8 +20,11 @@ export default {
   gap: 20px;
   font-weight: bold;
   span {
-    color: #375b26;
+    color: #22B111;
   }
+}
+.navbar-wrapper__title p {
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .navbar-wrapper__title {

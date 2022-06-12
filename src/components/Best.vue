@@ -65,9 +65,14 @@ export default {
   .best__btn:active {
     background: #375b26;
   }
+  .best__btn:hover {
+    background: #375b26;
+    transition: 0.7s;
+  }
 }
 .best-info {
   .best-info__title {
+    cursor: pointer;
     span {
       color: #375b26;
     }
@@ -81,6 +86,7 @@ export default {
 .best-wrapper__subtitle {
   font-size: 15px;
   color: rgba(17, 39, 52, 0.7);
+  cursor: pointer;
 }
 .best-wrapper-item {
   display: flex;
@@ -89,6 +95,7 @@ export default {
   .best-wrapper__title {
     font-size: 30px;
     color: rgba(55, 91, 38, 0.41);
+    cursor: pointer;
   }
 }
 .best-item {
@@ -100,10 +107,15 @@ export default {
   cursor: pointer;
   .best-item__number {
     font-size: 40px;
+    cursor: pointer;
   }
 }
 .best-item:active {
   background: #375b26;
+}
+.best-item:hover {
+  transition: 2s;
+   box-shadow: inset 200px 0 0 0 #d3b10f;
 }
 @media screen and (max-width: 768px) {
   .best-wrapper-item .best-wrapper__title {

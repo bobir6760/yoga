@@ -116,6 +116,7 @@ export default {
     color: #f1d44b;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
   }
   .footer-wrapper__subtitle {
     display: flex;
@@ -123,7 +124,11 @@ export default {
     gap: 20px;
     color: white;
     font-size: 18px;
+    cursor: pointer;
   }
+}
+.footer-wrapper__subtitle p {
+  cursor: pointer;
 }
 .footer-card-wrapper {
   display: flex;

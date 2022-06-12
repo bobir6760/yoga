@@ -44,6 +44,7 @@ export default {
   flex-direction: column;
   gap: 30px;
   .from-wrapper__title {
+    cursor: pointer;
     span {
       color: #375b26;
     }
@@ -52,6 +53,7 @@ export default {
   .from-wrapper__subtitle {
     color: rgba(17, 39, 52, 0.7);
     font-size: 15px;
+    cursor: pointer;
   }
 }
 .from-btn {
@@ -66,11 +68,18 @@ export default {
 .from-btn:active {
   background: #375b26;
 }
+.from-btn:hover {
+  transition: 0.5s;
+  box-shadow: inset 40px 0 0 0 black;
+  border-radius: 15px;
+  padding: 15px 40px 15px 80px;
+}
 .from-item-wrapper {
   display: flex;
 }
 .from-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px) {
   .from-card-wrapper {

@@ -56,10 +56,12 @@ export default {
   gap: 5px;
   .navbar-card__image img {
     width: 100%;
+    cursor: pointer;
   }
   .navbar-card__title {
     font-size: 22px;
     font-weight: bold;
+    cursor: pointer;
     span {
       color: #375b26;
     }
@@ -81,18 +83,21 @@ export default {
 }
 .navbar-wrapper-btn:active {
   background: #d3b10f;
-  border: none;
+  transition: 0.3s;
+  color: white;
 }
 .navbar-btn {
-  padding: 7px;
+  padding: 5px;
   color: white;
   background: #d3b10f;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-.navbar-btn:active {
-  background: #375b26;
+.navbar-btn:hover {
+  transition: 1s;
+  box-shadow: inset 200px 0 0 0 #375b26;
+  padding: 9px;
 }
 @media screen and (max-width: 992px) {
   .navbar-btn {

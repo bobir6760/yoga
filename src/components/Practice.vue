@@ -75,12 +75,17 @@ export default {
   gap: 10px;
   .practice-wrapper__title {
     font-size: 35px;
+    cursor: pointer;
     span {
-      color: #375b26;
+      color: #22b111;
     }
+  }
+  .practice-wrapper__title:hover {
+    text-decoration: underline;
   }
   .practice-wrapper__subtitle {
     color: rgba(17, 39, 52, 0.7);
+    cursor: pointer;
   }
 }
 .practice-item-wrapper {
@@ -100,6 +105,7 @@ export default {
   }
   .practice-block-wrapper img {
     width: 70%;
+    cursor: pointer;
   }
 }
 @media screen and (max-width: 992px) {

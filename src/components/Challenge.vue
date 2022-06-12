@@ -45,13 +45,18 @@ export default {
   gap: 30px;
   .challenge-wrapper__title {
     font-size: 40px;
+    cursor: pointer;
     span {
-      color: #375b26;
+      color: #22B111;
     }
+  }
+  .challenge-wrapper__title:hover {
+    text-decoration: underline;
   }
   .challenge-wrapper__subtitle {
     font-size: 18px;
     color: rgba(17, 39, 52, 0.7);
+    cursor: pointer;
   }
 }
 .challenge-wrapper-item {
@@ -59,6 +64,7 @@ export default {
   gap: 30px;
   .challenge-wrapper__image img {
     width: 100%;
+    cursor: pointer;
   }
   .challenge-wrapper__image {
     display: flex;

@@ -65,11 +65,14 @@ export default {
 }
 .member-wrapper__title {
   font-size: 35px;
+  cursor: pointer;
   span {
-    color: #375b26;
+    color: #22b111;
   }
 }
-
+.member-wrapper__title:hover {
+  text-decoration: underline;
+}
 .member-wrapper-card {
   display: flex;
   justify-content: center;

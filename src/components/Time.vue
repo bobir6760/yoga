@@ -76,6 +76,7 @@ export default {
   flex-direction: column;
   .time-wrapper__title {
     font-size: 35px;
+    cursor: pointer;
     span {
       color: #375b26;
     }
@@ -88,11 +89,13 @@ export default {
   justify-content: center;
   .time-wrapper__image img {
     width: 100%;
+    cursor: pointer;
   }
   .time-wrapper__image {
     display: flex;
     overflow: hidden;
     border-radius: 15px;
+    cursor: pointer;
   }
 }
 .time-wrapper-block {
@@ -102,6 +105,7 @@ export default {
   border-radius: 15px;
   .time-block__title {
     color: rgba(17, 39, 52, 0.7);
+    cursor: pointer;
   }
 }
 .time-item {
@@ -112,11 +116,13 @@ export default {
   border-radius: 15px;
   .time-image img {
     width: 100%;
+    cursor: pointer;
   }
   .time-image {
     display: flex;
     overflow: hidden;
     border-radius: 15px;
+    cursor: pointer;
   }
 }
 .time-item-body {
@@ -125,15 +131,21 @@ export default {
   align-items: center;
   .time-item__title {
     font-size: 22px;
+    cursor: pointer;
   }
   .time-body-image img {
     width: 100%;
+    cursor: pointer;
   }
   .time-body-image {
     padding: 6px 7px 4px 8px;
     background: #f1d44b;
     border-radius: 30px;
+    cursor: pointer;
   }
+}
+.time-item__text {
+  cursor: pointer;
 }
 .time-item-card {
   padding: 0px 10;
@@ -147,6 +159,9 @@ export default {
   gap: 15px;
   padding: 0px 15px;
 }
+.time-item__subtitle {
+  cursor: pointer;
+}
 .time-card-body {
   display: flex;
   justify-content: space-between;
@@ -156,6 +171,13 @@ export default {
     gap: 10px;
     align-items: center;
   }
+}
+.time-body__image img {
+  width: 100%;
+  cursor: pointer;
+}
+.time-body__title {
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .time-wrapper-block {

@@ -31,7 +31,6 @@ export default {
         {
           title: "7 days of Relation",
           subtitle: "45 min",
-
         },
         {
           title: "Increase your mobility ",
@@ -72,9 +71,12 @@ export default {
   text-align: center;
   .courses-wrapper__title {
     font-size: 35px;
+    cursor: pointer;
   }
 }
+.courses-wrapper__subtitle {
+  cursor: pointer;
+}
 @media screen and (max-width: 992px) {
-  
 }
 </style>

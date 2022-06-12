@@ -21,6 +21,7 @@ export default {
 <style lang="scss" scoped>
 .footer-image img {
   width: 100%;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .footer-image img {

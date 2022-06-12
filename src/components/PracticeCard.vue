@@ -25,9 +25,11 @@ export default {
 .practice-wrapper__image img {
   width: 100%;
   border-radius: 120px;
+  cursor: pointer;
 }
 .practice-wrapper__image {
   display: flex;
   gap: 20px;
+  cursor: pointer;
 }
 </style>

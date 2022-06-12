@@ -30,12 +30,18 @@ export default {
 .member-item__title {
   font-size: 27px;
   color: #b6990f;
+  cursor: pointer;
+}
+.member-item__title:hover {
+  text-decoration: underline gray;
 }
 .member-item__image img {
   width: 100%;
+  cursor: pointer;
 }
 .member-item__subtitle {
   font-size: 15px;
+  cursor: pointer;
 }
 @media screen and (max-width: 992px) {
   .member-item {
